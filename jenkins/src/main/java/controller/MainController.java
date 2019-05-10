@@ -12,4 +12,10 @@ public class MainController {
         return "Hello, World";
     }
 
+    @GetMapping
+    @ResponseBody
+    public String mwabukaNtanda(){
+        return "Mwabuka, Mwane";
+    }
+
 }
